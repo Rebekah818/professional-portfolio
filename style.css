@@ -1,0 +1,117 @@
+
+body {
+    font-family: Palatino, URW Palladio L, serif;
+    background-color: whitesmoke;
+}
+/* Start of header style */
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url(pexels-scott-webb-1029624.jpg);
+    border: 2px solid black;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+}
+header a {
+    text-decoration: none;
+    color: black;
+    font-style: bold;
+    text-align: right;
+    padding: 10px;
+    border-bottom: 3px;
+}
+header nav {
+    margin: 7px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+/* Hero Style Start */
+.hero {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+}
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    background-image: url(./pexels-scott-webb-1029624.jpg);
+    padding: 20%;
+}
+/* Hero Style Ends */
+
+.intro {
+    line-height: 1.7;
+    color: black;
+    width: 80%;
+    font-size: 20px;
+    margin: auto;
+    text-align: right;
+}
+.section-title {
+    font-size: 35px;
+    border-right: 3px solid;
+    color: black;
+    padding-bottom: 10px;
+    text-align: right;
+    justify-content: left;
+    width: 15%;
+    
+}
+.intro p {
+    text-align: right;
+    padding-left: 20px;
+   
+}
+    
+.work {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 20%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    justify-content: space-between;
+}
+.work h3 { 
+    color: #024e76;
+    font-size: 20px;
+    flex: 1 30%;
+}
+/* Contact info style */
+.contact-info > * {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
